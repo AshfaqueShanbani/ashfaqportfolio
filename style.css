@@ -1,0 +1,283 @@
+@import url("https:/fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+.slidebar{
+    background-color: rgba(240, 248, 255, 0.708);
+    /* width: 434px; */
+    height: 100vh;
+    font-family: 'fira Sans', 'sans-serif';
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.slidebar nav{
+    padding: 45px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+  /* background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(213, 108, 108);  */
+    height: 51vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello{
+font-size: 65px;
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+
+}
+.about{
+font-size: 40px;
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+padding: 9px 14px;
+border-radius: 15px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 20px;
+margin: 0 3px;
+border-color: blue;
+}
+.btn-sm{
+    font-size: 14px;
+    width: 8vw;
+    margin-top:-30px;
+}
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+}
+.devpic img{
+    height: 50vh;
+}
+
+/* contacthtml css start here  */
+.contactform{
+padding: 0 34px;
+/* padding-top: 144px; */
+margin: 0 80px;
+}
+.contactform h1{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 9px 0;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding-left: 15px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px 0 0 0;
+}
+#formcheck{
+    flex-direction: row;
+}
+#formcheck input{
+    width: 26px;
+    margin: 3px 0;
+}
+/* my intro style  */
+.intro{
+    padding: 20px;
+    margin-left: 50px;
+}
+.intro h2{
+font-family: 'sans-serif','fira sans';
+margin: 12px;
+}
+.intro p{
+font-family: 'Times New Roman', Times, serif;
+margin: 12px;
+font-size: 20px;
+}
+.cont{
+    margin-top: 120px;
+}
+/* copy from here */
+.intro .skillcontainer {
+    margin: 15px;
+    width: 50%;
+    justify-content: center;
+    margin-left: 60px;
+}
+.intro .skillcontainer .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.intro .skillcontainer .left a:hover{
+    color: crimson;
+    background: none;
+}
+.intro .skillcontainer .right .bars{
+    margin-bottom: 15px;
+}
+.intro .skillcontainer .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro .skillcontainer .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.intro .skillcontainer .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.intro .skillcontainer .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skillcontainer .right .html::before{
+    width: 90%;
+}
+.skillcontainer .right .css::before{
+    width: 60%;
+}
+.skillcontainer .right .js::before{
+    width: 50%;
+}
+.skillcontainer .right .php::before{
+    width: 40%;
+}
+.skillcontainer .right .mysql::before{
+    width: 95%;
+}
+/* Project section start here */
+.project h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+.pr1{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.pr1 a{
+    position: absolute;
+    margin-top: -52px;
+    margin-left: 520px;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+.pr1 h3{
+    margin: 25px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cros{
+    margin-left: 175px;
+    margin-top: 10px;
+}
+.slidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+@media (max-width:1200px){
+    /* *{
+        background-color:red;
+    }
+    .slidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    .devic{
+        display: none;
+    }
+    .btn-sm{
+        width:20vw;
+    }
+    .intro,.contactform{
+        margin: 50px 8px;
+    }
+    .project{
+        margin: auto auto;
+        margin-top: 50px;
+    }
+    .project h2{
+        margin-left: 150px;
+        font-size: 45px;
+    }
+    .pr1{
+        margin-left: 0px;
+    }
+    .pr1 a{
+        margin-left: 330px;
+        font-size: 20px;
+    }
+    .mb3 .form-control{
+        width: 320px;
+        height: 28px;
+    }
+    .form-control{
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .main .hamburger img{
+        margin-top: 15px;
+    }
+}
